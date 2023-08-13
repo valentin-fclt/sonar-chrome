@@ -23,7 +23,17 @@ const websiteHasLoginCookiesForUser = async (domain) => {
   const cookies = await chrome.cookies.getAll({ domain });
   cookieLoop: for (const cookie of cookies) {
     for (const authCookie of authCookiesList) {
-      if (new RegExp('^' + authCookie + '$', 'i').test(cookie.name)) {
+      if (
+        new RegExp(authCookie, 'i').test(cookie.name) &&
+        cookie.value != null &&
+        cookie.value?.includes('false') === false &&
+        cookie.value !== false &&
+        cookie.value !== 'no' &&
+        cookie.value !== 'n' &&
+        cookie.value?.includes('undefined') === false &&
+        cookie.value?.includes('null') === false &&
+        cookie.value?.includes('unspecified') === false
+      ) {
         authCookieFound = true;
         break cookieLoop;
       }
