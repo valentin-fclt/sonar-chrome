@@ -14,7 +14,6 @@ Sonar will generate events only for the SaaS-related domains that are listed bel
 
 <details>
   <summary>SaaS domains</summary>
-    ### Some Javascript
   ```js
   '0xcert.org',
   '100hires.com',
