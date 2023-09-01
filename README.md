@@ -8,13 +8,14 @@ Should you have any concerns that aren’t covered here, please do not hesitate 
 
 # How does it work?
 
-The Sonar Chrome Extension works in the background. It looks at the domains that are being visited and will ping the Sonar servers about once per day per domain whenever it detects that you’re using a SaaS tool. Your administrator can then easily find out which tools are the most used within the organisation, and optimise the organisation’s stack.
+The Sonar Chrome Extension works in the background. It looks at the domains that are being visited and will ping the Sonar servers whenever it detects that you’re using a SaaS tool. Your administrator can then easily find out which tools are the most used within the organisation, and optimise the organisation’s stack.
+
+We aim to limit the amount of data sent to our servers as much as possible. Thus, if you keep Google Chrome open throughout the day, only about one “visit” event per domain per day will be sent to the Sonar servers.
 
 Sonar will generate events only for the SaaS-related domains that are listed below. **All visits to domains that are not on this list will be promptly ignored and will not generate a “visit” event sent to our servers.**
 
 <details>
   <summary>SaaS domains</summary>
-  ```js
   '0xcert.org',
   '100hires.com',
   '10to8.com',
@@ -3234,10 +3235,7 @@ Sonar will generate events only for the SaaS-related domains that are listed bel
   'zuddl.com',
   'zulip.com',
   'zzbots.com';
-  ```
 </details>
-
-We aim to limit the amount of data sent to our servers as much as possible. Thus, if you keep Google Chrome open throughout the day, only about one “visit” event per domain per day will be sent to the Sonar servers.
 
 # What data leaves my computer?
 
