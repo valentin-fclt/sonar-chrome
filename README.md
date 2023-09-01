@@ -14,8 +14,9 @@ Sonar will generate events only for the SaaS-related domains that are listed bel
 
 <details>
   <summary>SaaS domains</summary>
-```jsx
-'0xcert.org',
+    ### Some Javascript
+  ```js
+  '0xcert.org',
   '100hires.com',
   '10to8.com',
   '11sight.com',
@@ -3234,7 +3235,7 @@ Sonar will generate events only for the SaaS-related domains that are listed bel
   'zuddl.com',
   'zulip.com',
   'zzbots.com';
-```
+  ```
 </details>
 
 We aim to limit the amount of data sent to our servers as much as possible. Thus, if you keep Google Chrome open throughout the day, only about one “visit” event per domain per day will be sent to the Sonar servers.
