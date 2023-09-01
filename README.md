@@ -12,8 +12,8 @@ The Sonar Chrome Extension works in the background. It looks at the domains that
 
 Sonar will generate events only for the SaaS-related domains that are listed below. **All visits to domains that are not on this list will be promptly ignored and will not generate a “visit” event sent to our servers.**
 
-### SaaS domains
-
+<details>
+  <summary>SaaS domains</summary>
 ```jsx
 '0xcert.org',
   '100hires.com',
@@ -3235,6 +3235,7 @@ Sonar will generate events only for the SaaS-related domains that are listed bel
   'zulip.com',
   'zzbots.com';
 ```
+</details>
 
 We aim to limit the amount of data sent to our servers as much as possible. Thus, if you keep Google Chrome open throughout the day, only about one “visit” event per domain per day will be sent to the Sonar servers.
 
@@ -3294,4 +3295,4 @@ Should you have any questions regarding the extension, please do not hesitate to
 
 - **Valentin Foucault** (Co-Founder & head of engineering) | [email](mailto:valentin@valentinfoucault.com) | [linkedin](https://www.linkedin.com/in/valentin-foucault/)
 - **Etienne Delouvrier** (Co-Founder & head of sales) | [email](mailto:etienne@circla.co) | [linkedin](https://www.linkedin.com/in/etienne-delouvrier/)
-- \***\*Tanguy Duthion\*\*** (Co-Founder & head of partnerships) | [email](mailto:tanguy@circla.co) | [linkedin](https://www.linkedin.com/in/tanguyduthion/)
+- **Tanguy Duthion** (Co-Founder & head of partnerships) | [email](mailto:tanguy@circla.co) | [linkedin](https://www.linkedin.com/in/tanguyduthion/)
