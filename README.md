@@ -1,6 +1,6 @@
 # What is this?
 
-Sonar is a tool that helps organisations optimise their tech stacks. We let your administrator see which Software-as-a-Service (SaaS) applications are being used so that your organisation can cut unused licenses, identify security vulnerabilities, and find tools that are better suited its needs.
+Sonar is a tool that helps organisations optimise their tech stacks. We let your administrator see which Software-as-a-Service (SaaS) applications are being used so that your organisation can cut unused licenses, identify security vulnerabilities, and find tools that are better suited to its needs.
 
 Sonar was designed with privacy in mind and is not designed to track the employees’ work. We only collect a minimum amount of data strictly for the purposes cited above, and aim to be fully transparent regarding how the product works. This document aims to answer all questions you may have.
 
