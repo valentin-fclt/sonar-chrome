@@ -70,7 +70,7 @@ const Popup = () => {
         size="small"
         onClick={handleWhatsThisButtonClick}
       >
-        What's this?
+        What is this?
       </Button>
       <Box sx={{ marginTop: 'auto', marginBottom: 'auto' }}>
         <img src={logo} className="App-logo" alt="Sonar logo" />
